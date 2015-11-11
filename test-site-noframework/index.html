@@ -1,26 +1,146 @@
 <!DOCTYPE html>
 <html>
-  <head>
+    <head>
     <meta charset="utf-8"/>
-    <title>Boolino Cuentos Infantiles - Bootstrap test page</title>
+    <title>Boolino Cuentos Infantiles - No Framework test page</title>
 
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
+        
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    
+    <!-- Bootstrap for slider -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="                crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+        
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/main.css">
   </head>
 
-  <body>
-    <div class="container">
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="logo-box">
+                    <div class="logo"></div>
+                    <div class="logo-tag"><p>read · discover · grow</p></div>
+                </div>
+                <nav class="topnav">
+                    <ul class="topnav-ul">
+                        <li class="topnav-li"><a href="#" class="boolino-grey"><span class="fa fa-commenting fa-fw boolino-blue"></span> blog</a></li>
+                        <li  class="topnav-li">
+                          <a href="#" class="dropdown-toggle boolino-grey" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="fa fa-book fa-fw boolino-yellow"></span> catálogo                               <span class="fa fa-caret-down"></span></a>
+                        </li>
+                        <li class="topnav-li"><a href="#" class="boolino-grey"><span class="fa fa-inbox fa-fw boolino-fucsia"></span> book box </a></li>
+                        <li class="topnav-li"><a href="#" class="boolino-grey"><span class="fa fa-user fa-fw boolino-grey"></span> ingresa </a></li>
+                        <li class="topnav-li"><a href="#" class="boolino-grey"><span class="fa fa-search fa-fw boolino-grey"></span> buscar </a></li>
+                        <li><a href="#" class="boolino-grey"><span class="fa fa-shopping-cart fa-fw boolino-yellow"></span> <span class="badge">0</span></a></li>
+                    </ul>
+                </nav>
+                <div class="clear"></div>
+            </div>
+        </header>
+        
+        <div id="hero">
+            <div class="container">
+                <div class="hero-title">
+                    <h3>Encuentra los mejores libros y cuentos infantiles para tus hijos.</h3>
+                    <h4>Tu recomendador de libros infantiles y novela juvenil.</h4>
+                    <input type="text" placeholder="ej. libros de piratas para 9 años"><button type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="message">
+            <p>Envío <strong>GRATIS</strong> hasta el 09/11</p>
+        </div>
+        
+        <div class="container">             
+            <!-- Bootstrap Slider -->
+            <div class="col-lg-12 collab">
+                <div class="col-lg-3 collab">
+                    <p class="boolino-grey">Nuestros colaboradores</p>
+                </div>
+                <div class="col-lg-9">
+                    <!-- Slideshow -->
+                    <div id="my-slider" class="carousel slide" data-ride="carousel">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                          <div class="item active">
+                            <img src="images/slide1.jpg" />
+                          </div>
+                          <div class="item">
+                            <img src="images/slide2.jpg" />
+                          </div>
+                          <div class="item">
+                            <img src="images/slide3.jpg" />
+                          </div>
+                          <div class="item">
+                            <img src="images/slide4.jpg" />
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-      <header>
-      </header>
-      
-      <section>
-      </section>
+            <section class="left-side">
+                <div id="featured">
+                    <div id="featured-heading">
+                        <h1>Hoy destacamos <span class="fa fa-caret-down"></span></h1>
+                    </div>
+                </div>
+                
+                <article class="article-featured grey-box">
+                    <div class="article-img">
+                        <img src="images/destacamos_img1.jpg" width="270"/>
+                    </div>
+                    <header>
+                        <h4><i>#hoyleemos</i></h4>
+                        <h2>La granja de Sara</h2>
+                    </header>
+                    <p>A todos en una medida más grande o más pequeña nos gusta ser protagonistas de algo, ya puede ser una virtud o bien un don, pero si se reconoce nuestros valores nos sentimos especiales y...</p>
+                    <footer class="article-featured-footerbg-fucsia">
+                        <p><a href="#">ver libro</a></p>
+                    </footer>
+                </article>
+                <article class="article-featured grey-box">
+                    <div class="article-img">
+                        <img src="images/destacamos_img2.jpg" width="270"/>
+                    </div>
+                    <header>
+                        <h4><i>#hoyleemos</i></h4>
+                        <h2>La granja de Sara</h2>
+                    </header>
+                    <p>A todos en una medida más grande o más pequeña nos gusta ser protagonistas de algo, ya puede ser una virtud o bien un don, pero si se reconoce nuestros valores nos sentimos especiales y...</p>
+                    <footer class="article-featured-footerbg-green">
+                        <p><a href="#">ver libro</a></p>
+                    </footer>
+                </article>
+               
+            </section>
+            
+            <aside class="right-side">
+                <div id="ads">
+                    <div class="plain-box">
+                        <h5>Publicidad <span class="fa fa-caret-down"></span></h5>
+                    </div>
+                    <div class="ads-unit">
+                        <img src="images/ad1.jpg" width="297" />
+                    </div>
+                    <div class="ads-unit">
+                        <img src="images/ad2.jpg" width="297"  />
+                    </div>
+                </div>
+            </aside>
 
-    </div>
-
-    <footer>
-      <p>&copy; Copyright 2015</p>
-    </footer>
-
-  </body>
+            <footer class="page-footer">
+                &copy; Copyright Leimagen.com
+            </footer>
+            
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous">         </script>
+    </body>
 </html>

@@ -1,3 +1,151 @@
-.main-content{
+body{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
 
+.navbar-custom {
+    background-image: url(../images/header-bg.png);
+    background-repeat: repeat-x;
+    height:109px;   
+}
+
+#logo {
+    width:150px;
+    height: 29px;
+    background-image: url(../images/logo-boolino.jpg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+#logo-tag {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 1.2em;
+    color: #989898;
+    text-align: left;
+    display: inline-block;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.vcenter {
+    vertical-align: middle;
+}
+
+.white {
+    color:white;
+}
+
+.boolino-blue{
+    color: #59bbb8;
+}
+
+.boolino-yellow{
+    color: #f5c41c;
+}
+
+.boolino-fucsia{
+    color: #e35c81;
+}
+
+.boolino-green{
+    color: #96be3d;
+}
+
+.boolino-grey{
+    color: #989898;
+}
+
+hero-paragraph{
+    color: #30704d;
+}
+
+.nav-custom-position {
+    float: right;
+    left: 35px;
+}
+
+.hero {
+    background-image: url(../images/heroImage-02.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #f8f087;
+    width: 100%;
+    height: 470px;
+    margin:0;
+}
+
+.hero-title {
+    width: 470px;
+    height: 150px;
+    margin-left:15%;
+    margin-top: 200px;
+}
+
+.hero-title h3{
+    color: #30704d;
+    font-weight: 600;
+}
+
+.hero-title h4{
+    color: #30704d;
+    font-weight: 300;
+}
+
+.message-stripe {
+    width: 100%;
+    height: 47px;
+    margin: 0;
+    text-align: center;
+    background-color: #d86080;
+    background-image: url(../images/fucsia_stripe-01.jpg);
+    background-repeat: no-repeat;
+}
+
+.message-stripe p{
+    color: white;
+    margin-top: 13px;
+}
+
+.colaboradores {
+    padding: 40px 0 40px 0;
+}
+
+.colaboradores-textbox {
+    text-align: right;
+    height: 78px;
+}
+
+.colaboradores-textbox p{
+    margin-top: 30px;
+}
+
+.hoy-destacamos {
+    background-color: #96be3d;
+    background-image: url(../images/title_green_bg.jpg);
+    height: 67px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.hoy-destacamos p {
+    font-size: 2em;
+    font-weight: 100;
+}
+
+.publicidad {
+    border: 1px solid #cececd;
+    text-align: center;
+    color: #606060;
+    height: 67px;
+    padding-top: 23px;
+}
+
+.no-margin {
+    margin: 0;
+}
+.module-img-destacada {
+    
 }

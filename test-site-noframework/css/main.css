@@ -1,3 +1,273 @@
-.main-content{
+* {
+    margin:0;
+    padding: 0px;
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+}
 
+header,nav,article,section,footer,aside,logo,hero,message {
+    display: block;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width:940px;
+    margin:0 auto;
+}
+
+.logo-box {
+    width: 366px;
+    height: 100px;
+    float:left;
+}
+
+.logo {
+    background-image: url(../images/logo-boolino.jpg);
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 30px;
+    margin-top: 32px;
+    float:left;
+}
+
+.logo-tag {
+    width:150px;
+    height: 20px;
+    float: left;
+    margin-top: 38px;
+    margin-left: 15px;
+}
+
+.logo-tag p {
+    font-family: 'Comfortaa', sans-serif;
+    color: #989898;
+}
+
+.topnav {
+    width: 544px;
+    float: left;
+    margin-top: 27px;
+    text-align: right
+}
+
+.topnav ul li a {
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 1em;
+}
+
+.topnav ul li:hover {
+    background-color: #ededed;
+}
+
+.topnav ul li{
+    display: inline-block;
+    padding: 10px;
+    border-radius:8px;
+}
+
+.left-side {
+    width: 580px;
+    float: left;
+}
+
+.right-side {
+    width:300px;
+    float:right;
+    text-align: center;
+    border: 1px solid #e2e2e2;
+}
+
+.grey-box {
+    background-color: white;
+    border: 1px solid #e2e2e2;
+}
+
+.right-side h5 {
+    font-weight: 100;
+    color: #989898;
+}
+
+.ads-unit {
+    width: 300px;
+    height: 300px;
+}
+
+.page-footer {
+    clear: both;
+}
+
+.left-side article {
+    margin-right: 10px;
+}
+
+.page-footer {
+    text-align: center;
+}
+
+.white {
+    color:white;
+}
+
+.boolino-blue{
+    color: #59bbb8;
+}
+
+.boolino-yellow{
+    color: #f5c41c;
+}
+
+.boolino-fucsia{
+    color: #e35c81;
+}
+
+.boolino-green{
+    color: #96be3d;
+}
+
+.boolino-grey{
+    color: #989898;
+}
+
+hero-paragraph{
+    color: #30704d;
+}
+
+
+
+.header {
+    display:block;
+    width: 100%;
+    height: 109px;
+    background-image: url(../images/header-bg.png);
+    z-index: 1;
+    position: fixed;
+    top:0px;
+}
+
+.topnav-ul {
+    
+}
+
+.topnav-li {
+    padding-right: 20px;
+}
+
+#message {
+    text-align: center;
+    color: white;
+    background-image: url(../images/fucsia_stripe-01.jpg);
+    height: 48px;
+    padding-top: 14px;
+}
+
+#message p {
+    
+}
+
+#hero {
+    background-image: url(../images/heroImage-02.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #f8f087;
+    background-position: right bottom;
+    background-color: #f8f087;
+    width: 100%;
+    height: 390px;
+    margin-top:80px;
+    display:block;
+}
+
+#hero-heading {
+    display: block;
+    width: 500px;
+    height: 200px;
+    margin-top: 80px;
+}
+
+hero-paragraph{
+    color: #30704d;
+}
+
+.hero-title {
+    width: 440px;
+    height: 150px;
+    margin-top:140px;
+}
+
+.hero-title h3{
+    color: #30704d;
+    font-weight: 600;
+}
+
+.hero-title h4{
+    color: #30704d;
+    font-weight: 300;
+}
+
+.collab {
+    padding: 20px;
+}
+
+#featured {
+    background-image: url(../images/title_green_bg.jpg);
+    width: 580px;
+    height: 67px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+#featured h1 {
+    font-weight: 100;
+    color: white;
+    padding-top: 10px;
+    
+}
+
+.article-featured {
+    width: 270px;
+    text-align: center;
+    display: block;
+    float: left;
+    margin:10px;
+}
+
+.article-featured header h4 {
+    font-size: 1.2em;
+}
+
+.article-featured header h2 {
+    font-size: 1.5em;
+}
+
+.article-featured p {
+    font-size: 1em;
+    font-weight: 300;
+    padding: 20px;
+    margin-top: -20px;
+}
+
+.article-featured footer p a {
+    color: white;
+    font-size: 1.3em;
+    font-weight: 200;
+}
+
+.article-featured-footerbg-fucsia {
+    background-image: url(../images/fucsia_btnbg.jpg);
+    width: 270px;
+    height: 75px;
+    padding-top: 22px;
+    padding-left: 70px
+}
+
+.article-featured-footerbg-green {
+    background-image: url(../images/green_btnbg.jpg);
+    width: 270px;
+    height: 75px;
+    padding-top: 22px;
+    padding-left: 70px
 }
